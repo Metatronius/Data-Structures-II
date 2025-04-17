@@ -1,0 +1,52 @@
+# Ignore the data directory and everything inside it
+data/
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore JAR, WAR, EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore Maven build output directory
+target/
+
+# Ignore Gradle build output directories
+.gradle/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+out/
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store        # macOS Finder
+Thumbs.db        # Windows thumbnail cache
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by text editors
+*.swp
+*.tmp
+
+# Ignore environment variable files (useful if you're using .env files)
+.env
+
+# Ignore generated files from tests, coverage, and other tools
+*.h2.db
+*.sqlite
+*.db
+
+# Ignore any files or folders related to Git LFS (for large files)
+.gitattributes
