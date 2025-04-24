@@ -5,10 +5,6 @@ import algs32.BST;
 import stdlib.StdIn;
 import stdlib.Stopwatch;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 public class FillAndSearchTime
 {
 
